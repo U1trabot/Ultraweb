@@ -124,7 +124,7 @@
         <div class="container text-center">
             <div><a class="btn btn-dark border rounded align-items-xxl-center" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button" data-aos="fade-up" style="margin-bottom: 2%;">Click For Fun</a>
                 <div class="collapse" id="collapse-1" style="margin-bottom: 2%;"><video class="border rounded d-flex flex-grow-0 flex-shrink-1 flex-fill align-items-center" width="720" height="540" style="margin-right: auto;margin-left: auto;" controls="">
-                        <source src="assets/video/rick.mp4" type="video/mp4">
+                        <source src="rick.mp4" type="video/mp4">
                     </video></div>
             </div>
             <p>Copyright ©&nbsp;Adam Baker 2022</p>
