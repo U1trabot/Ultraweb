@@ -1,5 +1,7 @@
-function loadGames() {
-  for (game in gamelist) {
-    document.getElementById(list).innerHTML += '<li><a href="'+game.link+'">'+game.name+'</a></li>'
-  }
-}
+$(document).ready(function(){
+  $.getJSON("gamelist.json", function(result){
+    $.each(result, function(i, game){
+      $("div").append('<li><a href="'+game.link+'">'+game.name+'</a></li>');
+    });
+  });
+});
